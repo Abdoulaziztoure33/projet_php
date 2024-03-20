@@ -1,0 +1,75 @@
+.head{
+    padding: 30px;
+    background-color: rgb(1, 168, 168);
+
+}
+.head h1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    padding: 30px;
+    background-color: rgb(1, 168, 168);
+}
+
+.boite{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.formAJ{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.formAJ div{
+    margin: 5px;
+}
+.boutton_soumission{
+    background-color: rgb(8, 92, 92);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+    text-decoration: none;
+    color: #f2f2f2;
+    display: flex;
+    justify-content:space-around;
+    transition: background-color 0.3s ease;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.lien {
+    display: flex;
+    justify-content: space-between;
+
+}
+.lien :hover{
+    color: rgb(235, 128, 128);
+    
+}
+
+body{
+    font-family: monospace;
+    font-size: larger; 
+}
+html, body {
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+}
